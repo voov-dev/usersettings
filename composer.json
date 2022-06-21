@@ -1,0 +1,15 @@
+{
+    "name": "User Settings",
+    "description": "Extend user settings",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Vladimir Ostapov"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

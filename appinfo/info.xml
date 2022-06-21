@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>usersettings</id>
+    <name>User Settings</name>
+    <summary>Extend user settings</summary>
+    <description><![CDATA[Extend user settings]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="v.ttbomk@gmail.com" >Vladimir Ostapov</author>
+    <namespace>UserSettings</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/voov-dev/user-settings</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>User Settings</name>
+            <route>usersettings.page.index</route>
+        </navigation>
+    </navigations>
+</info>
