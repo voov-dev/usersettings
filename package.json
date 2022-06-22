@@ -1,0 +1,64 @@
+{
+  "name": "usersettings",
+  "version": "1.0.0",
+  "description": "Place this app in **nextcloud/apps/**",
+  "main": "babel.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --progress --config webpack.js",
+    "dev": "NODE_ENV=development webpack --progress --config webpack.js",
+    "watch": "NODE_ENV=development webpack --progress --watch --config webpack.js",
+    "serve": "NODE_ENV=development webpack serve --progress --config webpack.js",
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "eslint --ext .js,.vue src --fix",
+    "stylelint": "stylelint src",
+    "stylelint:fix": "stylelint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voov-dev/usersettings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voov-dev/usersettings/issues"
+  },
+  "homepage": "https://github.com/voov-dev/usersettings#readme",
+  "dependencies": {
+    "@nextcloud/auth": "^1.3.0",
+    "@nextcloud/axios": "^1.10.0",
+    "@nextcloud/dialogs": "^3.1.2",
+    "@nextcloud/event-bus": "^2.1.1",
+    "@nextcloud/initial-state": "^1.2.1",
+    "@nextcloud/router": "^2.0.0",
+    "@nextcloud/vue": "^5.3.1",
+    "@nextcloud/vue-dashboard": "^2.0.1",
+    "async-parallel": "^1.2.3",
+    "clone-deep": "^4.0.1",
+    "copy-text-to-clipboard": "^3.0.1",
+    "humanize-duration": "^3.27.2",
+    "linkify-it": "^4.0.1",
+    "lodash": "^4.17.21",
+    "nextcloud-vue-collections": "^0.10.0",
+    "sanitize-html": "^2.7.0",
+    "vue": "^2.6.14",
+    "vue-click-outside": "^1.1.0",
+    "vue-material-design-icons": "^5.0.0",
+    "vue-router": "^3.5.3",
+    "vue-simple-progress": "^1.1.1",
+    "vue-template-compiler": "^2.6.14",
+    "vuex": "^3.6.2",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@nextcloud/babel-config": "^1.0.0",
+    "@nextcloud/browserslist-config": "^2.2.0",
+    "@nextcloud/eslint-config": "^6.1.0",
+    "@nextcloud/stylelint-config": "^2.1.2",
+    "@nextcloud/webpack-vue-config": "^5.1.0"
+  }
+}
