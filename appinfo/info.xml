@@ -9,6 +9,7 @@
     <licence>agpl</licence>
     <author mail="v.ttbomk@gmail.com" >Vladimir Ostapov</author>
     <namespace>UserSettings</namespace>
+    <default_enable/>
     <category>tools</category>
     <bugs>https://github.com/voov-dev/user-settings</bugs>
     <dependencies>
@@ -16,8 +17,10 @@
     </dependencies>
     <navigations>
         <navigation>
-            <name>User Settings</name>
+            <name>Users</name>
             <route>usersettings.page.index</route>
+            <order>5</order>
+            <type>settings</type>
         </navigation>
     </navigations>
 </info>

@@ -47,6 +47,8 @@
     "sanitize-html": "^2.7.0",
     "vue": "^2.6.14",
     "vue-click-outside": "^1.1.0",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-localstorage": "^0.6.2",
     "vue-material-design-icons": "^5.0.0",
     "vue-router": "^3.5.3",
     "vue-simple-progress": "^1.1.1",
@@ -60,5 +62,8 @@
     "@nextcloud/eslint-config": "^6.1.0",
     "@nextcloud/stylelint-config": "^2.1.2",
     "@nextcloud/webpack-vue-config": "^5.1.0"
-  }
+  },
+  "browserslist": [
+    "extends @nextcloud/browserslist-config"
+  ]
 }
